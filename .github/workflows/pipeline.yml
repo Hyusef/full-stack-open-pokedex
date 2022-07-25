@@ -52,4 +52,5 @@ jobs:
           DEFAULT_BUMP: patch
           DRY_RUN: true
           REPO_OWNER: Hyusef
-      -run : ls -l
+      - run : ls -l
+      - run : git status
